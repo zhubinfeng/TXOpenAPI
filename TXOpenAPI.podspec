@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TXOpenAPI"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "This is a tests for TXLoginFramework."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "The description TXLoginFramework just for good artical and length verbs for this version0.0.2."
+  s.description  = "The description TXLoginFramework just for good artical and length verbs for this."
 
   s.homepage     = "https://github.com/zhubinfeng/TXOpenAPI"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TXOpenAPI/*"
+  s.source_files  = "TXOpenAPI/TencentOpenAPI.framework/Headers/*.{h}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+  s.vendored_frameworks = 'TXOpenAPI/TencentOpenAPI.framework'
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
