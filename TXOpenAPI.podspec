@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TXOpenAPI"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "This is a tests for TXLoginFramework."
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TXOpenAPI/TencentOpenAPI.framework/Headers/*.{h}"
+  s.source_files  = "TXOpenAPI/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
