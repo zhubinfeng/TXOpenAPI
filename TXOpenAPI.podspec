@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TXOpenAPI"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a tests for TXLoginFramework."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "The description TXLoginFramework just for good artical and length verbs for this."
+  s.description  = "The description TXLoginFramework just for good artical and length verbs for this version0.0.2."
 
   s.homepage     = "https://github.com/zhubinfeng/TXOpenAPI"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
