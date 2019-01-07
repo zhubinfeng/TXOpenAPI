@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TXOpenAPI"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "This is a tests for TXLoginFramework."
 
   # This description is used to generate tags and improve search results.
@@ -116,10 +116,10 @@ Pod::Spec.new do |s|
   #
   s.vendored_frameworks = 'TXOpenAPI/TencentOpenAPI.framework'
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = “Security”,“SystemConfiguration”,“CoreGraphics”,“CoreTelephony”
 
   # s.library   = "iconv"
-  # s.libraries = "Security.framework”,“libicon”，“SystemConfiguration.framework”，“CoreGraphics.Framework”、“libsqlite3”、“CoreTelephony.framework”、“libstdc++”、“libz"
+  s.libraries = “libiconv”,“libsqlite3”,“libz”
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
